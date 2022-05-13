@@ -1,0 +1,504 @@
+0
+{('1228801', '1228810'): PTNode(start_idx=0, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+1
+{('1228801', '1601'): PTNode(start_idx=3, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+2
+{('1601',): PTNode(start_idx=6, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+3
+{('1228801', '1228810'): PTNode(start_idx=9, nextPath='00010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+4
+{('1228801',): PTNode(start_idx=15, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=2), ('1228810',): PTNode(start_idx=15, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+5
+{('1228801',): PTNode(start_idx=23, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=1), ('1228810',): PTNode(start_idx=23, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+6
+{('1228801', '1228810'): PTNode(start_idx=30, nextPath='0010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+7
+{('1228801', '1601'): PTNode(start_idx=34, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+8
+{('1601',): PTNode(start_idx=37, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+9
+{('1228801', '4915210', '1228810'): PTNode(start_idx=40, nextPath='00100', color='white', edgeCnt=0, maxEdgeCnt=1), ('4915201', '1228801', '1228810'): PTNode(start_idx=40, nextPath='00101', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+10
+{('4915201', '1228801', '4915210', '1228810'): PTNode(start_idx=46, nextPath='0001001', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+11
+{('1228801', '1601'): PTNode(start_idx=53, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+12
+{('1601',): PTNode(start_idx=56, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+13
+{('1228801', '1228810'): PTNode(start_idx=59, nextPath='00010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+14
+{('1228801',): PTNode(start_idx=65, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=2), ('1228810',): PTNode(start_idx=65, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+15
+{('1228801',): PTNode(start_idx=73, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=1), ('1228810',): PTNode(start_idx=73, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+16
+{('1228801', '1228810'): PTNode(start_idx=80, nextPath='0010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+17
+{('1228801', '1601'): PTNode(start_idx=84, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+18
+{('1601',): PTNode(start_idx=87, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+19
+{('1228801', '4915210', '1228810'): PTNode(start_idx=90, nextPath='00100', color='white', edgeCnt=0, maxEdgeCnt=1), ('4915201', '1228801', '1228810'): PTNode(start_idx=90, nextPath='00101', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+20
+{('4915201', '1228801', '4915210', '1228810'): PTNode(start_idx=96, nextPath='0001001', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+21
+{('1228801', '1601'): PTNode(start_idx=103, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+22
+{('1601',): PTNode(start_idx=106, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+23
+{('1228801', '1228810'): PTNode(start_idx=109, nextPath='00010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+24
+{('1228801',): PTNode(start_idx=115, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=2), ('1228810',): PTNode(start_idx=115, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+25
+{('1228801',): PTNode(start_idx=123, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=1), ('1228810',): PTNode(start_idx=123, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+26
+{('1228801', '1228810'): PTNode(start_idx=130, nextPath='0010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+27
+{('1228801', '1601'): PTNode(start_idx=134, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+28
+{('1601',): PTNode(start_idx=137, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+29
+{('1228801', '4915210', '1228810'): PTNode(start_idx=140, nextPath='00100', color='white', edgeCnt=0, maxEdgeCnt=1), ('4915201', '1228801', '1228810'): PTNode(start_idx=140, nextPath='00101', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+30
+{('4915201', '1228801', '4915210', '1228810'): PTNode(start_idx=146, nextPath='0001001', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+31
+{('1228801', '1601'): PTNode(start_idx=153, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+32
+{('1601',): PTNode(start_idx=156, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+33
+{('1228801', '1228810'): PTNode(start_idx=159, nextPath='00010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+34
+{('1228801',): PTNode(start_idx=165, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=2), ('1228810',): PTNode(start_idx=165, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+35
+{('1228801',): PTNode(start_idx=173, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=1), ('1228810',): PTNode(start_idx=173, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+36
+{('1228801', '1228810'): PTNode(start_idx=180, nextPath='0010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+37
+{('1228801', '1601'): PTNode(start_idx=184, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+38
+{('1601',): PTNode(start_idx=187, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+39
+{('1228801', '4915210', '1228810'): PTNode(start_idx=190, nextPath='00100', color='white', edgeCnt=0, maxEdgeCnt=1), ('4915201', '1228801', '1228810'): PTNode(start_idx=190, nextPath='00101', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+40
+{('4915201', '1228801', '4915210', '1228810'): PTNode(start_idx=196, nextPath='0001001', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+41
+{('1228801', '1601'): PTNode(start_idx=203, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+42
+{('1601',): PTNode(start_idx=206, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+43
+{('1228801', '1228810'): PTNode(start_idx=209, nextPath='00010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+44
+{('1228801',): PTNode(start_idx=215, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=2), ('1228810',): PTNode(start_idx=215, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+45
+{('1228801',): PTNode(start_idx=223, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=1), ('1228810',): PTNode(start_idx=223, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+46
+{('1228801', '1228810'): PTNode(start_idx=230, nextPath='0010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+47
+{('1228801', '1601'): PTNode(start_idx=234, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+48
+{('1601',): PTNode(start_idx=237, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+49
+{('1228801', '4915210', '1228810'): PTNode(start_idx=240, nextPath='00100', color='white', edgeCnt=0, maxEdgeCnt=1), ('4915201', '1228801', '1228810'): PTNode(start_idx=240, nextPath='00101', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+50
+{('4915201', '1228801', '4915210', '1228810'): PTNode(start_idx=246, nextPath='0001001', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+51
+{('1228801', '1601'): PTNode(start_idx=253, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+52
+{('1601',): PTNode(start_idx=256, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+53
+{('1228801', '1228810'): PTNode(start_idx=259, nextPath='00010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+54
+{('1228801',): PTNode(start_idx=265, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=2), ('1228810',): PTNode(start_idx=265, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+55
+{('1228801',): PTNode(start_idx=273, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=1), ('1228810',): PTNode(start_idx=273, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+56
+{('1228801', '1228810'): PTNode(start_idx=280, nextPath='0010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+57
+{('1228801', '1601'): PTNode(start_idx=284, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+58
+{('1601',): PTNode(start_idx=287, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+59
+{('1228801', '4915210', '1228810'): PTNode(start_idx=290, nextPath='00100', color='white', edgeCnt=0, maxEdgeCnt=1), ('4915201', '1228801', '1228810'): PTNode(start_idx=290, nextPath='00101', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+60
+{('4915201', '1228801', '4915210', '1228810'): PTNode(start_idx=296, nextPath='0001001', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+61
+{('1228801', '1601'): PTNode(start_idx=303, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+62
+{('1601',): PTNode(start_idx=306, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+63
+{('1228801', '1228810'): PTNode(start_idx=309, nextPath='00010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+64
+{('1228801',): PTNode(start_idx=315, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=2), ('1228810',): PTNode(start_idx=315, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+65
+{('1228801',): PTNode(start_idx=323, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=1), ('1228810',): PTNode(start_idx=323, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+66
+{('1228801', '1228810'): PTNode(start_idx=330, nextPath='0010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+67
+{('1228801', '1601'): PTNode(start_idx=334, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+68
+{('1601',): PTNode(start_idx=337, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+69
+{('1228801', '4915210', '1228810'): PTNode(start_idx=340, nextPath='00100', color='white', edgeCnt=0, maxEdgeCnt=1), ('4915201', '1228801', '1228810'): PTNode(start_idx=340, nextPath='00101', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+70
+{('4915201', '1228801', '4915210', '1228810'): PTNode(start_idx=346, nextPath='0001001', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+71
+{('1228801', '1601'): PTNode(start_idx=353, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+72
+{('1601',): PTNode(start_idx=356, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+73
+{('1228801', '1228810'): PTNode(start_idx=359, nextPath='00010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+74
+{('1228801',): PTNode(start_idx=365, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=2), ('1228810',): PTNode(start_idx=365, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+75
+{('1228801',): PTNode(start_idx=373, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=1), ('1228810',): PTNode(start_idx=373, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+76
+{('1228801', '1228810'): PTNode(start_idx=380, nextPath='0010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+77
+{('1228801', '1601'): PTNode(start_idx=384, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+78
+{('1601',): PTNode(start_idx=387, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+79
+{('1228801', '4915210', '1228810'): PTNode(start_idx=390, nextPath='00100', color='white', edgeCnt=0, maxEdgeCnt=1), ('4915201', '1228801', '1228810'): PTNode(start_idx=390, nextPath='00101', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+80
+{('4915201', '1228801', '4915210', '1228810'): PTNode(start_idx=396, nextPath='0001001', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+81
+{('1228801', '1601'): PTNode(start_idx=403, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+82
+{('1601',): PTNode(start_idx=406, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+83
+{('1228801', '1228810'): PTNode(start_idx=409, nextPath='00010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+84
+{('1228801',): PTNode(start_idx=415, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=2), ('1228810',): PTNode(start_idx=415, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+85
+{('1228801',): PTNode(start_idx=423, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=1), ('1228810',): PTNode(start_idx=423, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+86
+{('1228801', '1228810'): PTNode(start_idx=430, nextPath='0010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+87
+{('1228801', '1601'): PTNode(start_idx=434, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+88
+{('1601',): PTNode(start_idx=437, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+89
+{('1228801', '4915210', '1228810'): PTNode(start_idx=440, nextPath='00100', color='white', edgeCnt=0, maxEdgeCnt=1), ('4915201', '1228801', '1228810'): PTNode(start_idx=440, nextPath='00101', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+90
+{('4915201', '1228801', '4915210', '1228810'): PTNode(start_idx=446, nextPath='0001001', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+91
+{('1228801', '1601'): PTNode(start_idx=453, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+92
+{('1601',): PTNode(start_idx=456, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+93
+{('1228801', '1228810'): PTNode(start_idx=459, nextPath='00010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+94
+{('1228801',): PTNode(start_idx=465, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=2), ('1228810',): PTNode(start_idx=465, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+95
+{('1228801',): PTNode(start_idx=473, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=1), ('1228810',): PTNode(start_idx=473, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+96
+{('1228801', '1228810'): PTNode(start_idx=480, nextPath='0010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+97
+{('1228801', '1601'): PTNode(start_idx=484, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+98
+{('1601',): PTNode(start_idx=487, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+99
+{('1228801', '4915210', '1228810'): PTNode(start_idx=490, nextPath='00100', color='white', edgeCnt=0, maxEdgeCnt=1), ('4915201', '1228801', '1228810'): PTNode(start_idx=490, nextPath='00101', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+100
+{('4915201', '1228801', '4915210', '1228810'): PTNode(start_idx=496, nextPath='0001001', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+101
+{('1228801', '1601'): PTNode(start_idx=503, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+102
+{('1601',): PTNode(start_idx=506, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+103
+{('1228801', '1228810'): PTNode(start_idx=509, nextPath='00010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+104
+{('1228801',): PTNode(start_idx=515, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=2), ('1228810',): PTNode(start_idx=515, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+105
+{('1228801',): PTNode(start_idx=523, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=1), ('1228810',): PTNode(start_idx=523, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+106
+{('1228801', '1228810'): PTNode(start_idx=530, nextPath='0010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+107
+{('1228801', '1601'): PTNode(start_idx=534, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+108
+{('1601',): PTNode(start_idx=537, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+109
+{('1228801', '4915210', '1228810'): PTNode(start_idx=540, nextPath='00100', color='white', edgeCnt=0, maxEdgeCnt=1), ('4915201', '1228801', '1228810'): PTNode(start_idx=540, nextPath='00101', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+110
+{('4915201', '1228801', '4915210', '1228810'): PTNode(start_idx=546, nextPath='0001001', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+111
+{('1228801', '1601'): PTNode(start_idx=553, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+112
+{('1601',): PTNode(start_idx=556, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+113
+{('1228801', '1228810'): PTNode(start_idx=559, nextPath='00010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+114
+{('1228801',): PTNode(start_idx=565, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=2), ('1228810',): PTNode(start_idx=565, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+115
+{('1228801',): PTNode(start_idx=573, nextPath='001', color='white', edgeCnt=0, maxEdgeCnt=1), ('1228810',): PTNode(start_idx=573, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+116
+{('1228801', '1228810'): PTNode(start_idx=580, nextPath='0010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+117
+{('1228801', '1601'): PTNode(start_idx=584, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+118
+{('1601',): PTNode(start_idx=587, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=2)}
+
+
+119
+{('1228801', '4915210', '1228810'): PTNode(start_idx=590, nextPath='00100', color='white', edgeCnt=0, maxEdgeCnt=1), ('4915201', '1228801', '1228810'): PTNode(start_idx=590, nextPath='00101', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+120
+{('4915201', '1228801', '4915210', '1228810'): PTNode(start_idx=596, nextPath='0001001', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+121
+{('1228801', '1601'): PTNode(start_idx=603, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+122
+{('1601',): PTNode(start_idx=606, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+123
+{('1228801', '1228810'): PTNode(start_idx=609, nextPath='010', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+124
+{('76801',): PTNode(start_idx=612, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=1)}
+
+
+125
+{('76801',): PTNode(start_idx=614, nextPath='01', color='white', edgeCnt=0, maxEdgeCnt=0)}
+
+

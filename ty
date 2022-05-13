@@ -1,0 +1,3842 @@
+['1228801', '1228810', '1601', '1610', '4915201', '4915210', '76801', '76810']
+8
+1228801
+
+Popped node:  Add_34 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_35 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_35 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_35 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_35 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_36 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_36 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_37 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_39 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_39 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_42 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_43 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_43 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_45 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_46 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_46 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_46 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_46 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_49 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_49 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_49 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_49 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_50 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_50 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_50 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_50 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_73 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_73 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_48 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_48 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_48 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_48 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_62 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_62 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_52 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_52 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_52 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_52 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_83 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_83 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_103 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_104 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_104 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_104 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_104 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_106 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_106 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_107 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_109 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_109 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_112 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_113 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_113 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_115 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_116 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_116 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_116 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_116 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_117 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_117 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_117 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_117 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+4915210
+
+Popped node:  Add_118 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_118 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Add_118 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_118 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Div_122 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915210
+
+Popped node:  Div_122 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_125 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_120 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_120 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_126 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_126 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_126 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_126 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_127 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_127 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_127 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_127 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+1228810
+
+Popped node:  Add_128 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_128 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_128 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_128 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_130 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_130 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_131 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_133 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_133 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_136 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_137 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_137 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_139 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_140 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_140 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_140 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_140 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_143 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_143 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_143 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_143 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_144 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_144 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_144 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_144 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_167 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_167 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_142 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_142 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_142 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_142 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_156 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_156 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_146 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_146 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_146 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_146 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_177 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_177 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_197 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_198 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_198 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_198 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_198 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_200 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_200 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_201 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_203 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_203 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_206 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_207 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_207 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_209 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_210 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_210 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_210 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_210 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_211 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_211 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_211 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_211 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+4915210
+
+Popped node:  Add_212 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_212 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Add_212 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_212 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Div_216 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915210
+
+Popped node:  Div_216 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_219 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_214 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_214 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_220 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_220 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_220 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_220 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_221 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_221 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_221 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_221 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+1228810
+
+Popped node:  Add_222 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_222 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_222 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_222 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_224 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_224 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_225 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_227 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_227 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_230 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_231 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_231 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_233 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_234 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_234 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_234 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_234 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_237 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_237 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_237 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_237 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_238 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_238 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_238 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_238 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_261 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_261 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_236 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_236 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_236 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_236 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_250 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_250 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_240 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_240 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_240 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_240 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_271 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_271 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_291 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_292 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_292 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_292 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_292 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_294 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_294 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_295 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_297 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_297 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_300 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_301 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_301 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_303 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_304 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_304 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_304 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_304 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_305 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_305 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_305 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_305 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+4915210
+
+Popped node:  Add_306 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_306 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Add_306 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_306 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Div_310 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915210
+
+Popped node:  Div_310 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_313 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_308 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_308 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_314 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_314 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_314 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_314 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_315 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_315 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_315 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_315 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+1228810
+
+Popped node:  Add_316 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_316 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_316 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_316 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_318 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_318 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_319 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_321 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_321 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_324 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_325 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_325 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_327 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_328 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_328 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_328 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_328 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_331 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_331 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_331 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_331 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_332 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_332 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_332 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_332 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_355 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_355 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_330 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_330 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_330 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_330 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_344 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_344 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_334 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_334 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_334 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_334 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_365 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_365 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_385 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_386 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_386 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_386 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_386 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_388 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_388 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_389 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_391 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_391 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_394 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_395 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_395 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_397 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_398 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_398 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_398 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_398 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_399 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_399 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_399 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_399 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+4915210
+
+Popped node:  Add_400 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_400 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Add_400 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_400 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Div_404 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915210
+
+Popped node:  Div_404 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_407 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_402 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_402 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_408 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_408 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_408 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_408 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_409 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_409 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_409 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_409 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+1228810
+
+Popped node:  Add_410 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_410 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_410 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_410 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_412 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_412 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_413 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_415 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_415 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_418 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_419 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_419 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_421 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_422 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_422 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_422 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_422 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_425 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_425 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_425 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_425 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_426 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_426 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_426 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_426 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_449 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_449 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_424 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_424 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_424 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_424 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_438 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_438 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_428 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_428 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_428 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_428 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_459 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_459 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_479 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_480 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_480 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_480 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_480 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_482 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_482 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_483 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_485 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_485 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_488 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_489 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_489 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_491 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_492 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_492 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_492 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_492 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_493 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_493 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_493 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_493 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+4915210
+
+Popped node:  Add_494 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_494 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Add_494 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_494 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Div_498 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915210
+
+Popped node:  Div_498 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_501 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_496 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_496 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_502 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_502 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_502 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_502 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_503 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_503 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_503 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_503 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+1228810
+
+Popped node:  Add_504 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_504 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_504 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_504 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_506 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_506 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_507 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_509 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_509 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_512 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_513 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_513 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_515 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_516 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_516 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_516 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_516 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_519 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_519 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_519 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_519 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_520 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_520 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_520 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_520 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_543 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_543 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_518 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_518 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_518 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_518 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_532 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_532 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_522 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_522 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_522 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_522 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_553 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_553 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_573 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_574 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_574 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_574 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_574 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_576 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_576 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_577 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_579 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_579 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_582 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_583 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_583 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_585 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_586 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_586 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_586 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_586 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_587 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_587 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_587 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_587 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+4915210
+
+Popped node:  Add_588 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_588 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Add_588 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_588 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Div_592 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915210
+
+Popped node:  Div_592 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_595 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_590 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_590 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_596 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_596 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_596 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_596 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_597 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_597 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_597 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_597 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+1228810
+
+Popped node:  Add_598 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_598 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_598 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_598 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_600 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_600 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_601 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_603 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_603 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_606 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_607 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_607 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_609 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_610 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_610 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_610 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_610 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_613 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_613 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_613 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_613 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_614 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_614 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_614 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_614 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_637 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_637 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_612 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_612 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_612 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_612 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_626 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_626 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_616 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_616 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_616 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_616 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_647 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_647 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_667 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_668 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_668 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_668 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_668 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_670 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_670 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_671 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_673 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_673 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_676 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_677 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_677 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_679 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_680 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_680 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_680 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_680 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_681 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_681 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_681 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_681 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+4915210
+
+Popped node:  Add_682 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_682 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Add_682 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_682 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Div_686 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915210
+
+Popped node:  Div_686 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_689 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_684 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_684 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_690 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_690 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_690 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_690 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_691 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_691 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_691 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_691 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+1228810
+
+Popped node:  Add_692 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_692 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_692 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_692 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_694 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_694 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_695 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_697 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_697 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_700 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_701 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_701 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_703 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_704 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_704 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_704 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_704 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_707 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_707 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_707 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_707 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_708 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_708 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_708 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_708 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_731 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_731 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_706 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_706 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_706 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_706 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_720 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_720 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_710 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_710 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_710 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_710 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_741 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_741 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_761 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_762 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_762 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_762 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_762 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_764 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_764 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_765 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_767 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_767 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_770 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_771 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_771 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_773 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_774 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_774 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_774 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_774 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_775 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_775 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_775 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_775 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+4915210
+
+Popped node:  Add_776 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_776 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Add_776 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_776 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Div_780 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915210
+
+Popped node:  Div_780 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_783 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_778 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_778 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_784 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_784 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_784 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_784 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_785 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_785 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_785 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_785 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+1228810
+
+Popped node:  Add_786 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_786 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_786 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_786 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_788 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_788 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_789 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_791 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_791 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_794 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_795 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_795 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_797 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_798 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_798 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_798 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_798 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_801 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_801 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_801 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_801 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_802 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_802 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_802 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_802 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_825 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_825 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_800 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_800 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_800 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_800 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_814 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_814 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_804 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_804 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_804 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_804 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_835 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_835 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_855 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_856 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_856 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_856 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_856 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_858 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_858 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_859 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_861 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_861 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_864 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_865 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_865 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_867 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_868 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_868 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_868 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_868 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_869 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_869 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_869 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_869 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+4915210
+
+Popped node:  Add_870 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_870 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Add_870 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_870 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Div_874 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915210
+
+Popped node:  Div_874 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_877 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_872 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_872 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_878 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_878 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_878 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_878 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_879 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_879 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_879 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_879 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+1228810
+
+Popped node:  Add_880 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_880 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_880 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_880 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_882 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_882 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_883 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_885 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_885 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_888 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_889 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_889 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_891 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_892 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_892 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_892 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_892 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_895 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_895 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_895 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_895 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_896 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_896 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_896 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_896 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_919 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_919 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_894 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_894 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_894 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_894 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_908 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_908 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_898 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_898 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_898 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_898 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_929 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_929 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_949 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_950 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_950 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_950 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_950 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_952 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_952 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_953 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_955 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_955 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_958 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_959 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_959 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_961 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_962 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_962 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_962 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_962 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_963 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_963 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_963 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_963 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+4915210
+
+Popped node:  Add_964 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_964 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Add_964 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_964 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Div_968 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915210
+
+Popped node:  Div_968 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_971 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_966 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_966 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_972 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_972 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_972 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_972 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_973 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_973 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_973 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_973 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+1228810
+
+Popped node:  Add_974 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_974 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_974 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_974 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_976 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_976 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_977 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_979 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_979 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_982 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_983 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_983 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_985 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_986 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_986 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_986 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_986 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_989 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_989 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_989 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_989 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_990 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_990 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_990 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_990 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_1013 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_1013 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_988 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_988 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_988 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_988 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_1002 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_1002 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_992 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_992 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_992 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_992 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_1023 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_1023 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_1043 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1044 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1044 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1044 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1044 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_1046 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_1046 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_1047 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_1049 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_1049 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_1052 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_1053 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_1053 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_1055 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1056 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1056 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1056 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1056 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_1057 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_1057 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_1057 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_1057 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+4915210
+
+Popped node:  Add_1058 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_1058 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Add_1058 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_1058 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Div_1062 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915210
+
+Popped node:  Div_1062 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_1065 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_1060 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_1060 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_1066 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_1066 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_1066 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_1066 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_1067 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_1067 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_1067 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_1067 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+1228810
+
+Popped node:  Add_1068 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1068 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1068 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1068 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_1070 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_1070 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_1071 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_1073 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_1073 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_1076 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_1077 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_1077 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_1079 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1080 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1080 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1080 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1080 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_1083 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_1083 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_1083 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_1083 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1084 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1084 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1084 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1084 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_1107 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_1107 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_1082 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1082 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1082 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1082 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_1096 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_1096 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Add_1086 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1086 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1086 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1086 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Reshape_1117 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Reshape_1117 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_1137 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1138 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1138 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1138 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1138 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_1140 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_1140 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_1141 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_1143 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_1143 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_1146 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_1147 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_1147 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_1149 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1150 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1150 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1150 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1150 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_1151 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_1151 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  MatMul_1151 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  MatMul_1151 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+4915210
+
+Popped node:  Add_1152 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_1152 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Add_1152 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_1152 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Div_1156 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915210
+
+Popped node:  Div_1156 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Add_1159 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_1154 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915201
+
+Popped node:  Mul_1154 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_1160 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_1160 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  Mul_1160 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  Mul_1160 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_1161 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_1161 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+4915210
+
+Popped node:  MatMul_1161 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='4915210')
+4915201
+
+Popped node:  MatMul_1161 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='4915201')
+1228810
+
+Popped node:  Add_1162 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1162 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1162 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1162 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  ReduceMean_1164 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  ReduceMean_1164 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Sub_1165 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Pow_1167 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Pow_1167 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1601
+
+Popped node:  Add_1170 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1601')
+1610
+
+Popped node:  Sqrt_1171 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1610
+
+Popped node:  Sqrt_1171 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1610')
+1228801
+
+Popped node:  Mul_1173 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1174 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1174 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Add_1174 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228801
+
+Popped node:  Add_1174 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='1228801')
+1228810
+
+Popped node:  Gather_1176 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+1228810
+
+Popped node:  Gather_1176 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='1228810')
+76801
+
+Popped node:  Gemm_1177 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='76801')
+76810
+
+Popped node:  Tanh_1178 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='76810')
+76810
+
+Popped node:  Tanh_1178 	 0
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', ua_edges='76810')
+76801
+
+Popped node:  Gemm_1179 	 1
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', ua_edges='76801')

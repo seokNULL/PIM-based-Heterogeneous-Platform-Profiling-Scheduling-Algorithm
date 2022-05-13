@@ -1,0 +1,2466 @@
+
+ Gather_31
+Datafield(sink_ptr=('Add_34', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_34
+Datafield(sink_ptr=('Add_35', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_35', 0), size=12288, sink_next_ptr=None, src_ptr=('Gather_31', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_35
+Datafield(sink_ptr=('Sub_37', 1), size=12288, sink_next_ptr=None, src_ptr=('Add_34', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_36', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_34', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ ReduceMean_36
+Datafield(sink_ptr=('Sub_37', 1), size=16, sink_next_ptr=None, src_ptr=('Add_35', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_37
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_39', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_35', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_36', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_39
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_37', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_40
+Datafield(sink_ptr=('Add_42', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_42
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_43', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_40', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_43
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_42', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_44
+Datafield(sink_ptr=('Mul_45', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_45
+Datafield(sink_ptr=('Add_46', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_46', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_44', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_46
+Datafield(sink_ptr=('MatMul_47', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_45', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_47', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_45', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_49
+Datafield(sink_ptr=('Add_50', 1), size=12288, sink_next_ptr=None, src_ptr=('Add_46', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_50', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_46', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_50
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_49', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_73', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_49', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_73
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_50', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_85
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_47
+Datafield(sink_ptr=('Add_48', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_48', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_48
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_47', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_62', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_47', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_62
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_48', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_63
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_86
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_88
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_89
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Softmax_90
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_51
+Datafield(sink_ptr=('Add_52', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_52', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_52
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_51', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_83', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_51', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_83
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_52', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_84
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_91
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_92
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Reshape_102
+Datafield(sink_ptr=('MatMul_103', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_103
+Datafield(sink_ptr=('Add_104', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_104', 0), size=12288, sink_next_ptr=None, src_ptr=('Reshape_102', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_104
+Datafield(sink_ptr=('Add_105', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_103', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_105', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_103', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_105
+Datafield(sink_ptr=('Sub_107', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_104', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_106', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_104', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_106
+Datafield(sink_ptr=('Sub_107', 1), size=16, sink_next_ptr=None, src_ptr=('Add_105', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_107
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_109', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_105', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_106', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_109
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_107', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_110
+Datafield(sink_ptr=('Add_112', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_112
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_113', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_110', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_113
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_112', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_114
+Datafield(sink_ptr=('Mul_115', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_115
+Datafield(sink_ptr=('Add_116', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_116', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_114', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_116
+Datafield(sink_ptr=('MatMul_117', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_115', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_117', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_115', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_117
+Datafield(sink_ptr=('Add_118', 1), size=49152, sink_next_ptr=None, src_ptr=('Add_116', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_118', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_116', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_118
+Datafield(sink_ptr=('Mul_120', 1), size=49152, sink_next_ptr=None, src_ptr=('MatMul_117', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_120', 0), size=49152, sink_next_ptr=None, src_ptr=('MatMul_117', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Div_122
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_118', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Erf_123
+Datafield(sink_ptr=('Add_125', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_125
+Datafield(sink_ptr=('Mul_126', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_126', 0), size=49152, sink_next_ptr=None, src_ptr=('Erf_123', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_120
+Datafield(sink_ptr=('Mul_126', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_126', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_118', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_126
+Datafield(sink_ptr=('MatMul_127', 1), size=49152, sink_next_ptr=None, src_ptr=('Mul_120', 1), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_125', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_127', 0), size=49152, sink_next_ptr=None, src_ptr=('Mul_120', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_125', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ MatMul_127
+Datafield(sink_ptr=('Add_128', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_126', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_128', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_126', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_128
+Datafield(sink_ptr=('Add_129', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_127', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_129', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_127', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_129
+Datafield(sink_ptr=('Sub_131', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_128', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_130', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_128', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_130
+Datafield(sink_ptr=('Sub_131', 1), size=16, sink_next_ptr=None, src_ptr=('Add_129', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_131
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_133', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_129', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_130', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_133
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_131', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_134
+Datafield(sink_ptr=('Add_136', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_136
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_137', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_134', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_137
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_136', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_138
+Datafield(sink_ptr=('Mul_139', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_139
+Datafield(sink_ptr=('Add_140', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_140', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_138', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_140
+Datafield(sink_ptr=('MatMul_141', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_139', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_141', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_139', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_143
+Datafield(sink_ptr=('Add_144', 1), size=12288, sink_next_ptr=None, src_ptr=('Add_140', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_144', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_140', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_144
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_143', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_167', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_143', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_167
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_144', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_179
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_141
+Datafield(sink_ptr=('Add_142', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_142', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_142
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_141', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_156', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_141', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_156
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_142', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_157
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_180
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_182
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_183
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Softmax_184
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_145
+Datafield(sink_ptr=('Add_146', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_146', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_146
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_145', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_177', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_145', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_177
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_146', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_178
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_185
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_186
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Reshape_196
+Datafield(sink_ptr=('MatMul_197', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_197
+Datafield(sink_ptr=('Add_198', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_198', 0), size=12288, sink_next_ptr=None, src_ptr=('Reshape_196', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_198
+Datafield(sink_ptr=('Add_199', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_197', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_199', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_197', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_199
+Datafield(sink_ptr=('Sub_201', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_198', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_200', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_198', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_200
+Datafield(sink_ptr=('Sub_201', 1), size=16, sink_next_ptr=None, src_ptr=('Add_199', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_201
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_203', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_199', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_200', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_203
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_201', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_204
+Datafield(sink_ptr=('Add_206', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_206
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_207', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_204', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_207
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_206', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_208
+Datafield(sink_ptr=('Mul_209', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_209
+Datafield(sink_ptr=('Add_210', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_210', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_208', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_210
+Datafield(sink_ptr=('MatMul_211', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_209', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_211', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_209', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_211
+Datafield(sink_ptr=('Add_212', 1), size=49152, sink_next_ptr=None, src_ptr=('Add_210', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_212', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_210', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_212
+Datafield(sink_ptr=('Mul_214', 1), size=49152, sink_next_ptr=None, src_ptr=('MatMul_211', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_214', 0), size=49152, sink_next_ptr=None, src_ptr=('MatMul_211', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Div_216
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_212', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Erf_217
+Datafield(sink_ptr=('Add_219', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_219
+Datafield(sink_ptr=('Mul_220', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_220', 0), size=49152, sink_next_ptr=None, src_ptr=('Erf_217', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_214
+Datafield(sink_ptr=('Mul_220', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_220', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_212', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_220
+Datafield(sink_ptr=('MatMul_221', 1), size=49152, sink_next_ptr=None, src_ptr=('Mul_214', 1), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_219', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_221', 0), size=49152, sink_next_ptr=None, src_ptr=('Mul_214', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_219', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ MatMul_221
+Datafield(sink_ptr=('Add_222', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_220', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_222', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_220', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_222
+Datafield(sink_ptr=('Add_223', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_221', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_223', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_221', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_223
+Datafield(sink_ptr=('Sub_225', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_222', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_224', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_222', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_224
+Datafield(sink_ptr=('Sub_225', 1), size=16, sink_next_ptr=None, src_ptr=('Add_223', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_225
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_227', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_223', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_224', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_227
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_225', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_228
+Datafield(sink_ptr=('Add_230', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_230
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_231', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_228', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_231
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_230', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_232
+Datafield(sink_ptr=('Mul_233', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_233
+Datafield(sink_ptr=('Add_234', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_234', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_232', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_234
+Datafield(sink_ptr=('MatMul_235', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_233', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_235', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_233', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_237
+Datafield(sink_ptr=('Add_238', 1), size=12288, sink_next_ptr=None, src_ptr=('Add_234', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_238', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_234', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_238
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_237', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_261', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_237', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_261
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_238', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_273
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_235
+Datafield(sink_ptr=('Add_236', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_236', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_236
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_235', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_250', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_235', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_250
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_236', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_251
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_274
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_276
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_277
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Softmax_278
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_239
+Datafield(sink_ptr=('Add_240', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_240', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_240
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_239', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_271', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_239', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_271
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_240', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_272
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_279
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_280
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Reshape_290
+Datafield(sink_ptr=('MatMul_291', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_291
+Datafield(sink_ptr=('Add_292', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_292', 0), size=12288, sink_next_ptr=None, src_ptr=('Reshape_290', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_292
+Datafield(sink_ptr=('Add_293', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_291', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_293', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_291', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_293
+Datafield(sink_ptr=('Sub_295', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_292', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_294', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_292', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_294
+Datafield(sink_ptr=('Sub_295', 1), size=16, sink_next_ptr=None, src_ptr=('Add_293', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_295
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_297', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_293', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_294', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_297
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_295', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_298
+Datafield(sink_ptr=('Add_300', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_300
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_301', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_298', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_301
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_300', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_302
+Datafield(sink_ptr=('Mul_303', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_303
+Datafield(sink_ptr=('Add_304', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_304', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_302', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_304
+Datafield(sink_ptr=('MatMul_305', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_303', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_305', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_303', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_305
+Datafield(sink_ptr=('Add_306', 1), size=49152, sink_next_ptr=None, src_ptr=('Add_304', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_306', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_304', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_306
+Datafield(sink_ptr=('Mul_308', 1), size=49152, sink_next_ptr=None, src_ptr=('MatMul_305', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_308', 0), size=49152, sink_next_ptr=None, src_ptr=('MatMul_305', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Div_310
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_306', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Erf_311
+Datafield(sink_ptr=('Add_313', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_313
+Datafield(sink_ptr=('Mul_314', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_314', 0), size=49152, sink_next_ptr=None, src_ptr=('Erf_311', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_308
+Datafield(sink_ptr=('Mul_314', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_314', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_306', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_314
+Datafield(sink_ptr=('MatMul_315', 1), size=49152, sink_next_ptr=None, src_ptr=('Mul_308', 1), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_313', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_315', 0), size=49152, sink_next_ptr=None, src_ptr=('Mul_308', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_313', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ MatMul_315
+Datafield(sink_ptr=('Add_316', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_314', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_316', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_314', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_316
+Datafield(sink_ptr=('Add_317', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_315', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_317', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_315', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_317
+Datafield(sink_ptr=('Sub_319', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_316', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_318', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_316', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_318
+Datafield(sink_ptr=('Sub_319', 1), size=16, sink_next_ptr=None, src_ptr=('Add_317', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_319
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_321', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_317', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_318', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_321
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_319', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_322
+Datafield(sink_ptr=('Add_324', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_324
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_325', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_322', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_325
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_324', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_326
+Datafield(sink_ptr=('Mul_327', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_327
+Datafield(sink_ptr=('Add_328', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_328', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_326', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_328
+Datafield(sink_ptr=('MatMul_329', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_327', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_329', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_327', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_331
+Datafield(sink_ptr=('Add_332', 1), size=12288, sink_next_ptr=None, src_ptr=('Add_328', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_332', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_328', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_332
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_331', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_355', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_331', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_355
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_332', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_367
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_329
+Datafield(sink_ptr=('Add_330', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_330', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_330
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_329', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_344', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_329', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_344
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_330', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_345
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_368
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_370
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_371
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Softmax_372
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_333
+Datafield(sink_ptr=('Add_334', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_334', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_334
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_333', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_365', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_333', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_365
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_334', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_366
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_373
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_374
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Reshape_384
+Datafield(sink_ptr=('MatMul_385', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_385
+Datafield(sink_ptr=('Add_386', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_386', 0), size=12288, sink_next_ptr=None, src_ptr=('Reshape_384', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_386
+Datafield(sink_ptr=('Add_387', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_385', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_387', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_385', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_387
+Datafield(sink_ptr=('Sub_389', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_386', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_388', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_386', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_388
+Datafield(sink_ptr=('Sub_389', 1), size=16, sink_next_ptr=None, src_ptr=('Add_387', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_389
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_391', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_387', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_388', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_391
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_389', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_392
+Datafield(sink_ptr=('Add_394', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_394
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_395', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_392', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_395
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_394', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_396
+Datafield(sink_ptr=('Mul_397', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_397
+Datafield(sink_ptr=('Add_398', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_398', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_396', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_398
+Datafield(sink_ptr=('MatMul_399', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_397', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_399', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_397', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_399
+Datafield(sink_ptr=('Add_400', 1), size=49152, sink_next_ptr=None, src_ptr=('Add_398', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_400', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_398', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_400
+Datafield(sink_ptr=('Mul_402', 1), size=49152, sink_next_ptr=None, src_ptr=('MatMul_399', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_402', 0), size=49152, sink_next_ptr=None, src_ptr=('MatMul_399', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Div_404
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_400', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Erf_405
+Datafield(sink_ptr=('Add_407', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_407
+Datafield(sink_ptr=('Mul_408', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_408', 0), size=49152, sink_next_ptr=None, src_ptr=('Erf_405', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_402
+Datafield(sink_ptr=('Mul_408', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_408', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_400', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_408
+Datafield(sink_ptr=('MatMul_409', 1), size=49152, sink_next_ptr=None, src_ptr=('Mul_402', 1), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_407', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_409', 0), size=49152, sink_next_ptr=None, src_ptr=('Mul_402', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_407', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ MatMul_409
+Datafield(sink_ptr=('Add_410', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_408', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_410', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_408', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_410
+Datafield(sink_ptr=('Add_411', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_409', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_411', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_409', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_411
+Datafield(sink_ptr=('Sub_413', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_410', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_412', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_410', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_412
+Datafield(sink_ptr=('Sub_413', 1), size=16, sink_next_ptr=None, src_ptr=('Add_411', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_413
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_415', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_411', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_412', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_415
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_413', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_416
+Datafield(sink_ptr=('Add_418', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_418
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_419', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_416', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_419
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_418', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_420
+Datafield(sink_ptr=('Mul_421', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_421
+Datafield(sink_ptr=('Add_422', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_422', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_420', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_422
+Datafield(sink_ptr=('MatMul_423', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_421', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_423', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_421', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_425
+Datafield(sink_ptr=('Add_426', 1), size=12288, sink_next_ptr=None, src_ptr=('Add_422', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_426', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_422', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_426
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_425', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_449', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_425', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_449
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_426', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_461
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_423
+Datafield(sink_ptr=('Add_424', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_424', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_424
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_423', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_438', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_423', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_438
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_424', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_439
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_462
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_464
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_465
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Softmax_466
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_427
+Datafield(sink_ptr=('Add_428', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_428', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_428
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_427', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_459', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_427', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_459
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_428', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_460
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_467
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_468
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Reshape_478
+Datafield(sink_ptr=('MatMul_479', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_479
+Datafield(sink_ptr=('Add_480', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_480', 0), size=12288, sink_next_ptr=None, src_ptr=('Reshape_478', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_480
+Datafield(sink_ptr=('Add_481', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_479', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_481', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_479', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_481
+Datafield(sink_ptr=('Sub_483', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_480', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_482', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_480', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_482
+Datafield(sink_ptr=('Sub_483', 1), size=16, sink_next_ptr=None, src_ptr=('Add_481', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_483
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_485', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_481', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_482', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_485
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_483', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_486
+Datafield(sink_ptr=('Add_488', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_488
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_489', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_486', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_489
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_488', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_490
+Datafield(sink_ptr=('Mul_491', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_491
+Datafield(sink_ptr=('Add_492', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_492', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_490', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_492
+Datafield(sink_ptr=('MatMul_493', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_491', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_493', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_491', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_493
+Datafield(sink_ptr=('Add_494', 1), size=49152, sink_next_ptr=None, src_ptr=('Add_492', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_494', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_492', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_494
+Datafield(sink_ptr=('Mul_496', 1), size=49152, sink_next_ptr=None, src_ptr=('MatMul_493', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_496', 0), size=49152, sink_next_ptr=None, src_ptr=('MatMul_493', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Div_498
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_494', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Erf_499
+Datafield(sink_ptr=('Add_501', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_501
+Datafield(sink_ptr=('Mul_502', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_502', 0), size=49152, sink_next_ptr=None, src_ptr=('Erf_499', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_496
+Datafield(sink_ptr=('Mul_502', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_502', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_494', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_502
+Datafield(sink_ptr=('MatMul_503', 1), size=49152, sink_next_ptr=None, src_ptr=('Mul_496', 1), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_501', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_503', 0), size=49152, sink_next_ptr=None, src_ptr=('Mul_496', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_501', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ MatMul_503
+Datafield(sink_ptr=('Add_504', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_502', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_504', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_502', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_504
+Datafield(sink_ptr=('Add_505', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_503', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_505', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_503', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_505
+Datafield(sink_ptr=('Sub_507', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_504', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_506', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_504', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_506
+Datafield(sink_ptr=('Sub_507', 1), size=16, sink_next_ptr=None, src_ptr=('Add_505', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_507
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_509', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_505', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_506', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_509
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_507', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_510
+Datafield(sink_ptr=('Add_512', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_512
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_513', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_510', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_513
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_512', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_514
+Datafield(sink_ptr=('Mul_515', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_515
+Datafield(sink_ptr=('Add_516', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_516', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_514', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_516
+Datafield(sink_ptr=('MatMul_517', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_515', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_517', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_515', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_519
+Datafield(sink_ptr=('Add_520', 1), size=12288, sink_next_ptr=None, src_ptr=('Add_516', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_520', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_516', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_520
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_519', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_543', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_519', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_543
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_520', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_555
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_517
+Datafield(sink_ptr=('Add_518', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_518', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_518
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_517', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_532', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_517', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_532
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_518', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_533
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_556
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_558
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_559
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Softmax_560
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_521
+Datafield(sink_ptr=('Add_522', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_522', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_522
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_521', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_553', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_521', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_553
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_522', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_554
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_561
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_562
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Reshape_572
+Datafield(sink_ptr=('MatMul_573', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_573
+Datafield(sink_ptr=('Add_574', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_574', 0), size=12288, sink_next_ptr=None, src_ptr=('Reshape_572', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_574
+Datafield(sink_ptr=('Add_575', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_573', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_575', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_573', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_575
+Datafield(sink_ptr=('Sub_577', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_574', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_576', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_574', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_576
+Datafield(sink_ptr=('Sub_577', 1), size=16, sink_next_ptr=None, src_ptr=('Add_575', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_577
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_579', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_575', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_576', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_579
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_577', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_580
+Datafield(sink_ptr=('Add_582', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_582
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_583', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_580', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_583
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_582', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_584
+Datafield(sink_ptr=('Mul_585', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_585
+Datafield(sink_ptr=('Add_586', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_586', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_584', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_586
+Datafield(sink_ptr=('MatMul_587', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_585', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_587', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_585', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_587
+Datafield(sink_ptr=('Add_588', 1), size=49152, sink_next_ptr=None, src_ptr=('Add_586', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_588', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_586', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_588
+Datafield(sink_ptr=('Mul_590', 1), size=49152, sink_next_ptr=None, src_ptr=('MatMul_587', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_590', 0), size=49152, sink_next_ptr=None, src_ptr=('MatMul_587', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Div_592
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_588', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Erf_593
+Datafield(sink_ptr=('Add_595', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_595
+Datafield(sink_ptr=('Mul_596', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_596', 0), size=49152, sink_next_ptr=None, src_ptr=('Erf_593', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_590
+Datafield(sink_ptr=('Mul_596', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_596', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_588', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_596
+Datafield(sink_ptr=('MatMul_597', 1), size=49152, sink_next_ptr=None, src_ptr=('Mul_590', 1), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_595', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_597', 0), size=49152, sink_next_ptr=None, src_ptr=('Mul_590', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_595', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ MatMul_597
+Datafield(sink_ptr=('Add_598', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_596', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_598', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_596', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_598
+Datafield(sink_ptr=('Add_599', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_597', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_599', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_597', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_599
+Datafield(sink_ptr=('Sub_601', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_598', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_600', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_598', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_600
+Datafield(sink_ptr=('Sub_601', 1), size=16, sink_next_ptr=None, src_ptr=('Add_599', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_601
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_603', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_599', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_600', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_603
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_601', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_604
+Datafield(sink_ptr=('Add_606', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_606
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_607', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_604', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_607
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_606', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_608
+Datafield(sink_ptr=('Mul_609', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_609
+Datafield(sink_ptr=('Add_610', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_610', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_608', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_610
+Datafield(sink_ptr=('MatMul_611', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_609', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_611', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_609', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_613
+Datafield(sink_ptr=('Add_614', 1), size=12288, sink_next_ptr=None, src_ptr=('Add_610', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_614', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_610', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_614
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_613', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_637', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_613', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_637
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_614', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_649
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_611
+Datafield(sink_ptr=('Add_612', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_612', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_612
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_611', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_626', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_611', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_626
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_612', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_627
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_650
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_652
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_653
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Softmax_654
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_615
+Datafield(sink_ptr=('Add_616', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_616', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_616
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_615', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_647', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_615', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_647
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_616', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_648
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_655
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_656
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Reshape_666
+Datafield(sink_ptr=('MatMul_667', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_667
+Datafield(sink_ptr=('Add_668', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_668', 0), size=12288, sink_next_ptr=None, src_ptr=('Reshape_666', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_668
+Datafield(sink_ptr=('Add_669', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_667', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_669', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_667', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_669
+Datafield(sink_ptr=('Sub_671', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_668', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_670', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_668', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_670
+Datafield(sink_ptr=('Sub_671', 1), size=16, sink_next_ptr=None, src_ptr=('Add_669', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_671
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_673', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_669', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_670', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_673
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_671', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_674
+Datafield(sink_ptr=('Add_676', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_676
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_677', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_674', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_677
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_676', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_678
+Datafield(sink_ptr=('Mul_679', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_679
+Datafield(sink_ptr=('Add_680', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_680', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_678', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_680
+Datafield(sink_ptr=('MatMul_681', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_679', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_681', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_679', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_681
+Datafield(sink_ptr=('Add_682', 1), size=49152, sink_next_ptr=None, src_ptr=('Add_680', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_682', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_680', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_682
+Datafield(sink_ptr=('Mul_684', 1), size=49152, sink_next_ptr=None, src_ptr=('MatMul_681', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_684', 0), size=49152, sink_next_ptr=None, src_ptr=('MatMul_681', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Div_686
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_682', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Erf_687
+Datafield(sink_ptr=('Add_689', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_689
+Datafield(sink_ptr=('Mul_690', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_690', 0), size=49152, sink_next_ptr=None, src_ptr=('Erf_687', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_684
+Datafield(sink_ptr=('Mul_690', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_690', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_682', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_690
+Datafield(sink_ptr=('MatMul_691', 1), size=49152, sink_next_ptr=None, src_ptr=('Mul_684', 1), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_689', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_691', 0), size=49152, sink_next_ptr=None, src_ptr=('Mul_684', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_689', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ MatMul_691
+Datafield(sink_ptr=('Add_692', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_690', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_692', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_690', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_692
+Datafield(sink_ptr=('Add_693', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_691', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_693', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_691', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_693
+Datafield(sink_ptr=('Sub_695', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_692', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_694', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_692', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_694
+Datafield(sink_ptr=('Sub_695', 1), size=16, sink_next_ptr=None, src_ptr=('Add_693', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_695
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_697', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_693', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_694', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_697
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_695', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_698
+Datafield(sink_ptr=('Add_700', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_700
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_701', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_698', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_701
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_700', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_702
+Datafield(sink_ptr=('Mul_703', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_703
+Datafield(sink_ptr=('Add_704', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_704', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_702', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_704
+Datafield(sink_ptr=('MatMul_705', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_703', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_705', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_703', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_707
+Datafield(sink_ptr=('Add_708', 1), size=12288, sink_next_ptr=None, src_ptr=('Add_704', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_708', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_704', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_708
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_707', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_731', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_707', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_731
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_708', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_743
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_705
+Datafield(sink_ptr=('Add_706', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_706', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_706
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_705', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_720', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_705', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_720
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_706', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_721
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_744
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_746
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_747
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Softmax_748
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_709
+Datafield(sink_ptr=('Add_710', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_710', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_710
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_709', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_741', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_709', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_741
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_710', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_742
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_749
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_750
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Reshape_760
+Datafield(sink_ptr=('MatMul_761', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_761
+Datafield(sink_ptr=('Add_762', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_762', 0), size=12288, sink_next_ptr=None, src_ptr=('Reshape_760', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_762
+Datafield(sink_ptr=('Add_763', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_761', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_763', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_761', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_763
+Datafield(sink_ptr=('Sub_765', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_762', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_764', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_762', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_764
+Datafield(sink_ptr=('Sub_765', 1), size=16, sink_next_ptr=None, src_ptr=('Add_763', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_765
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_767', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_763', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_764', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_767
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_765', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_768
+Datafield(sink_ptr=('Add_770', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_770
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_771', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_768', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_771
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_770', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_772
+Datafield(sink_ptr=('Mul_773', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_773
+Datafield(sink_ptr=('Add_774', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_774', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_772', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_774
+Datafield(sink_ptr=('MatMul_775', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_773', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_775', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_773', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_775
+Datafield(sink_ptr=('Add_776', 1), size=49152, sink_next_ptr=None, src_ptr=('Add_774', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_776', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_774', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_776
+Datafield(sink_ptr=('Mul_778', 1), size=49152, sink_next_ptr=None, src_ptr=('MatMul_775', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_778', 0), size=49152, sink_next_ptr=None, src_ptr=('MatMul_775', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Div_780
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_776', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Erf_781
+Datafield(sink_ptr=('Add_783', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_783
+Datafield(sink_ptr=('Mul_784', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_784', 0), size=49152, sink_next_ptr=None, src_ptr=('Erf_781', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_778
+Datafield(sink_ptr=('Mul_784', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_784', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_776', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_784
+Datafield(sink_ptr=('MatMul_785', 1), size=49152, sink_next_ptr=None, src_ptr=('Mul_778', 1), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_783', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_785', 0), size=49152, sink_next_ptr=None, src_ptr=('Mul_778', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_783', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ MatMul_785
+Datafield(sink_ptr=('Add_786', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_784', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_786', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_784', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_786
+Datafield(sink_ptr=('Add_787', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_785', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_787', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_785', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_787
+Datafield(sink_ptr=('Sub_789', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_786', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_788', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_786', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_788
+Datafield(sink_ptr=('Sub_789', 1), size=16, sink_next_ptr=None, src_ptr=('Add_787', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_789
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_791', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_787', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_788', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_791
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_789', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_792
+Datafield(sink_ptr=('Add_794', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_794
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_795', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_792', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_795
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_794', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_796
+Datafield(sink_ptr=('Mul_797', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_797
+Datafield(sink_ptr=('Add_798', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_798', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_796', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_798
+Datafield(sink_ptr=('MatMul_799', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_797', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_799', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_797', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_801
+Datafield(sink_ptr=('Add_802', 1), size=12288, sink_next_ptr=None, src_ptr=('Add_798', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_802', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_798', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_802
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_801', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_825', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_801', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_825
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_802', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_837
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_799
+Datafield(sink_ptr=('Add_800', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_800', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_800
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_799', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_814', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_799', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_814
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_800', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_815
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_838
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_840
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_841
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Softmax_842
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_803
+Datafield(sink_ptr=('Add_804', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_804', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_804
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_803', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_835', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_803', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_835
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_804', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_836
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_843
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_844
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Reshape_854
+Datafield(sink_ptr=('MatMul_855', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_855
+Datafield(sink_ptr=('Add_856', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_856', 0), size=12288, sink_next_ptr=None, src_ptr=('Reshape_854', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_856
+Datafield(sink_ptr=('Add_857', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_855', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_857', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_855', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_857
+Datafield(sink_ptr=('Sub_859', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_856', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_858', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_856', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_858
+Datafield(sink_ptr=('Sub_859', 1), size=16, sink_next_ptr=None, src_ptr=('Add_857', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_859
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_861', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_857', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_858', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_861
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_859', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_862
+Datafield(sink_ptr=('Add_864', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_864
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_865', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_862', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_865
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_864', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_866
+Datafield(sink_ptr=('Mul_867', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_867
+Datafield(sink_ptr=('Add_868', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_868', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_866', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_868
+Datafield(sink_ptr=('MatMul_869', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_867', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_869', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_867', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_869
+Datafield(sink_ptr=('Add_870', 1), size=49152, sink_next_ptr=None, src_ptr=('Add_868', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_870', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_868', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_870
+Datafield(sink_ptr=('Mul_872', 1), size=49152, sink_next_ptr=None, src_ptr=('MatMul_869', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_872', 0), size=49152, sink_next_ptr=None, src_ptr=('MatMul_869', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Div_874
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_870', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Erf_875
+Datafield(sink_ptr=('Add_877', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_877
+Datafield(sink_ptr=('Mul_878', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_878', 0), size=49152, sink_next_ptr=None, src_ptr=('Erf_875', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_872
+Datafield(sink_ptr=('Mul_878', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_878', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_870', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_878
+Datafield(sink_ptr=('MatMul_879', 1), size=49152, sink_next_ptr=None, src_ptr=('Mul_872', 1), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_877', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_879', 0), size=49152, sink_next_ptr=None, src_ptr=('Mul_872', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_877', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ MatMul_879
+Datafield(sink_ptr=('Add_880', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_878', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_880', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_878', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_880
+Datafield(sink_ptr=('Add_881', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_879', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_881', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_879', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_881
+Datafield(sink_ptr=('Sub_883', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_880', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_882', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_880', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_882
+Datafield(sink_ptr=('Sub_883', 1), size=16, sink_next_ptr=None, src_ptr=('Add_881', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_883
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_885', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_881', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_882', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_885
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_883', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_886
+Datafield(sink_ptr=('Add_888', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_888
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_889', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_886', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_889
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_888', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_890
+Datafield(sink_ptr=('Mul_891', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_891
+Datafield(sink_ptr=('Add_892', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_892', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_890', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_892
+Datafield(sink_ptr=('MatMul_893', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_891', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_893', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_891', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_895
+Datafield(sink_ptr=('Add_896', 1), size=12288, sink_next_ptr=None, src_ptr=('Add_892', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_896', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_892', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_896
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_895', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_919', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_895', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_919
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_896', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_931
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_893
+Datafield(sink_ptr=('Add_894', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_894', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_894
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_893', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_908', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_893', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_908
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_894', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_909
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_932
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_934
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_935
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Softmax_936
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_897
+Datafield(sink_ptr=('Add_898', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_898', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_898
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_897', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_929', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_897', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_929
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_898', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_930
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_937
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_938
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Reshape_948
+Datafield(sink_ptr=('MatMul_949', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_949
+Datafield(sink_ptr=('Add_950', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_950', 0), size=12288, sink_next_ptr=None, src_ptr=('Reshape_948', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_950
+Datafield(sink_ptr=('Add_951', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_949', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_951', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_949', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_951
+Datafield(sink_ptr=('Sub_953', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_950', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_952', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_950', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_952
+Datafield(sink_ptr=('Sub_953', 1), size=16, sink_next_ptr=None, src_ptr=('Add_951', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_953
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_955', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_951', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_952', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_955
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_953', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_956
+Datafield(sink_ptr=('Add_958', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_958
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_959', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_956', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_959
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_958', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_960
+Datafield(sink_ptr=('Mul_961', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_961
+Datafield(sink_ptr=('Add_962', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_962', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_960', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_962
+Datafield(sink_ptr=('MatMul_963', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_961', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_963', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_961', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_963
+Datafield(sink_ptr=('Add_964', 1), size=49152, sink_next_ptr=None, src_ptr=('Add_962', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_964', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_962', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_964
+Datafield(sink_ptr=('Mul_966', 1), size=49152, sink_next_ptr=None, src_ptr=('MatMul_963', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_966', 0), size=49152, sink_next_ptr=None, src_ptr=('MatMul_963', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Div_968
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_964', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Erf_969
+Datafield(sink_ptr=('Add_971', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_971
+Datafield(sink_ptr=('Mul_972', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_972', 0), size=49152, sink_next_ptr=None, src_ptr=('Erf_969', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_966
+Datafield(sink_ptr=('Mul_972', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_972', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_964', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_972
+Datafield(sink_ptr=('MatMul_973', 1), size=49152, sink_next_ptr=None, src_ptr=('Mul_966', 1), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_971', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_973', 0), size=49152, sink_next_ptr=None, src_ptr=('Mul_966', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_971', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ MatMul_973
+Datafield(sink_ptr=('Add_974', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_972', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_974', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_972', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_974
+Datafield(sink_ptr=('Add_975', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_973', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_975', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_973', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_975
+Datafield(sink_ptr=('Sub_977', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_974', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_976', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_974', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_976
+Datafield(sink_ptr=('Sub_977', 1), size=16, sink_next_ptr=None, src_ptr=('Add_975', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_977
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_979', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_975', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_976', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_979
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_977', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_980
+Datafield(sink_ptr=('Add_982', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_982
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_983', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_980', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_983
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_982', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_984
+Datafield(sink_ptr=('Mul_985', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_985
+Datafield(sink_ptr=('Add_986', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_986', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_984', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_986
+Datafield(sink_ptr=('MatMul_987', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_985', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_987', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_985', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_989
+Datafield(sink_ptr=('Add_990', 1), size=12288, sink_next_ptr=None, src_ptr=('Add_986', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_990', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_986', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_990
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_989', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_1013', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_989', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_1013
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_990', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_1025
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_987
+Datafield(sink_ptr=('Add_988', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_988', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_988
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_987', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_1002', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_987', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_1002
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_988', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_1003
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_1026
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_1028
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_1029
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Softmax_1030
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_991
+Datafield(sink_ptr=('Add_992', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_992', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_992
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_991', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_1023', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_991', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_1023
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_992', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_1024
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_1031
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_1032
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Reshape_1042
+Datafield(sink_ptr=('MatMul_1043', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_1043
+Datafield(sink_ptr=('Add_1044', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1044', 0), size=12288, sink_next_ptr=None, src_ptr=('Reshape_1042', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1044
+Datafield(sink_ptr=('Add_1045', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_1043', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1045', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_1043', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1045
+Datafield(sink_ptr=('Sub_1047', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1044', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_1046', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1044', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_1046
+Datafield(sink_ptr=('Sub_1047', 1), size=16, sink_next_ptr=None, src_ptr=('Add_1045', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_1047
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_1049', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_1045', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_1046', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_1049
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_1047', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_1050
+Datafield(sink_ptr=('Add_1052', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_1052
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_1053', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_1050', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_1053
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1052', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_1054
+Datafield(sink_ptr=('Mul_1055', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_1055
+Datafield(sink_ptr=('Add_1056', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1056', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_1054', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1056
+Datafield(sink_ptr=('MatMul_1057', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_1055', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_1057', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_1055', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_1057
+Datafield(sink_ptr=('Add_1058', 1), size=49152, sink_next_ptr=None, src_ptr=('Add_1056', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1058', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_1056', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1058
+Datafield(sink_ptr=('Mul_1060', 1), size=49152, sink_next_ptr=None, src_ptr=('MatMul_1057', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_1060', 0), size=49152, sink_next_ptr=None, src_ptr=('MatMul_1057', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Div_1062
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1058', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Erf_1063
+Datafield(sink_ptr=('Add_1065', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_1065
+Datafield(sink_ptr=('Mul_1066', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_1066', 0), size=49152, sink_next_ptr=None, src_ptr=('Erf_1063', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_1060
+Datafield(sink_ptr=('Mul_1066', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_1066', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_1058', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_1066
+Datafield(sink_ptr=('MatMul_1067', 1), size=49152, sink_next_ptr=None, src_ptr=('Mul_1060', 1), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1065', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_1067', 0), size=49152, sink_next_ptr=None, src_ptr=('Mul_1060', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1065', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ MatMul_1067
+Datafield(sink_ptr=('Add_1068', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_1066', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1068', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_1066', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1068
+Datafield(sink_ptr=('Add_1069', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_1067', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1069', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_1067', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1069
+Datafield(sink_ptr=('Sub_1071', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1068', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_1070', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1068', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_1070
+Datafield(sink_ptr=('Sub_1071', 1), size=16, sink_next_ptr=None, src_ptr=('Add_1069', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_1071
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_1073', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_1069', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_1070', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_1073
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_1071', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_1074
+Datafield(sink_ptr=('Add_1076', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_1076
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_1077', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_1074', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_1077
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1076', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_1078
+Datafield(sink_ptr=('Mul_1079', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_1079
+Datafield(sink_ptr=('Add_1080', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1080', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_1078', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1080
+Datafield(sink_ptr=('MatMul_1081', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_1079', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_1081', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_1079', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_1083
+Datafield(sink_ptr=('Add_1084', 1), size=12288, sink_next_ptr=None, src_ptr=('Add_1080', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1084', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_1080', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1084
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_1083', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_1107', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_1083', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_1107
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1084', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_1119
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_1081
+Datafield(sink_ptr=('Add_1082', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1082', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1082
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_1081', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_1096', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_1081', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_1096
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1082', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_1097
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_1120
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_1122
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_1123
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Softmax_1124
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_1085
+Datafield(sink_ptr=('Add_1086', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1086', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1086
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('MatMul_1085', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Reshape_1117', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_1085', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Reshape_1117
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1086', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_1118
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_1125
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Transpose_1126
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Reshape_1136
+Datafield(sink_ptr=('MatMul_1137', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ MatMul_1137
+Datafield(sink_ptr=('Add_1138', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1138', 0), size=12288, sink_next_ptr=None, src_ptr=('Reshape_1136', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1138
+Datafield(sink_ptr=('Add_1139', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_1137', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1139', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_1137', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1139
+Datafield(sink_ptr=('Sub_1141', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1138', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_1140', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1138', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_1140
+Datafield(sink_ptr=('Sub_1141', 1), size=16, sink_next_ptr=None, src_ptr=('Add_1139', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_1141
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_1143', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_1139', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_1140', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_1143
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_1141', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_1144
+Datafield(sink_ptr=('Add_1146', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_1146
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_1147', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_1144', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_1147
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1146', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_1148
+Datafield(sink_ptr=('Mul_1149', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_1149
+Datafield(sink_ptr=('Add_1150', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1150', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_1148', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1150
+Datafield(sink_ptr=('MatMul_1151', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_1149', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_1151', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_1149', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ MatMul_1151
+Datafield(sink_ptr=('Add_1152', 1), size=49152, sink_next_ptr=None, src_ptr=('Add_1150', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1152', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_1150', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1152
+Datafield(sink_ptr=('Mul_1154', 1), size=49152, sink_next_ptr=None, src_ptr=('MatMul_1151', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_1154', 0), size=49152, sink_next_ptr=None, src_ptr=('MatMul_1151', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Div_1156
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1152', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Erf_1157
+Datafield(sink_ptr=('Add_1159', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_1159
+Datafield(sink_ptr=('Mul_1160', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_1160', 0), size=49152, sink_next_ptr=None, src_ptr=('Erf_1157', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_1154
+Datafield(sink_ptr=('Mul_1160', 1), size=49152, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Mul_1160', 0), size=49152, sink_next_ptr=None, src_ptr=('Add_1152', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Mul_1160
+Datafield(sink_ptr=('MatMul_1161', 1), size=49152, sink_next_ptr=None, src_ptr=('Mul_1154', 1), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1159', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('MatMul_1161', 0), size=49152, sink_next_ptr=None, src_ptr=('Mul_1154', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1159', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ MatMul_1161
+Datafield(sink_ptr=('Add_1162', 1), size=12288, sink_next_ptr=None, src_ptr=('Mul_1160', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1162', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_1160', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1162
+Datafield(sink_ptr=('Add_1163', 1), size=12288, sink_next_ptr=None, src_ptr=('MatMul_1161', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1163', 0), size=12288, sink_next_ptr=None, src_ptr=('MatMul_1161', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1163
+Datafield(sink_ptr=('Sub_1165', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1162', 1), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+Datafield(sink_ptr=('ReduceMean_1164', 0), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1162', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ ReduceMean_1164
+Datafield(sink_ptr=('Sub_1165', 1), size=16, sink_next_ptr=None, src_ptr=('Add_1163', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Sub_1165
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Pow_1167', 0), size=12288, sink_next_ptr=None, src_ptr=('Add_1163', 0), src_next_ptr=[Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('ReduceMean_1164', 0), src_next_ptr=None, color='white', explored_edge_list=None)], color='white', explored_edge_list=[])
+
+ Pow_1167
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Sub_1165', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ ReduceMean_1168
+Datafield(sink_ptr=('Add_1170', 1), size=16, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Add_1170
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Sqrt_1171', 0), size=16, sink_next_ptr=None, src_ptr=('ReduceMean_1168', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Sqrt_1171
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Add_1170', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Div_1172
+Datafield(sink_ptr=('Mul_1173', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Mul_1173
+Datafield(sink_ptr=('Add_1174', 1), size=12288, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Add_1174', 0), size=12288, sink_next_ptr=None, src_ptr=('Div_1172', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Add_1174
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Mul_1173', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Gather_1176', 0), size=12288, sink_next_ptr=None, src_ptr=('Mul_1173', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Gather_1176
+Datafield(sink_ptr=('Gemm_1177', 1), size=768, sink_next_ptr=None, src_ptr=('Add_1174', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Gemm_1177
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=('Tanh_1178', 0), size=768, sink_next_ptr=None, src_ptr=('Gather_1176', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+
+ Tanh_1178
+Datafield(sink_ptr=('Gemm_1179', 1), size=768, sink_next_ptr=None, src_ptr=('Gemm_1177', 1), src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color=None, explored_edge_list=[])
+
+ Gemm_1179
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=None, src_next_ptr=None, color='white', explored_edge_list=[])
+Datafield(sink_ptr=None, size=None, sink_next_ptr=None, src_ptr=('Tanh_1178', 0), src_next_ptr=None, color='white', explored_edge_list=[])
+['1228801', '1228810', '1601', '1610', '4915201', '4915210', '76801', '76810']
+8
