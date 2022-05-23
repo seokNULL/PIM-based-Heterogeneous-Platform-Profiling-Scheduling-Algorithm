@@ -310,14 +310,12 @@ while queue:
                                 if set_explored_edge_list[i][j] == True:
                                     set_index_vector.append(j)
                             set_incoming.append(set_index_vector)
+                        
                         ## Only implement with 2 set
                         set0 = set_incoming[0]
                         set1 = set_incoming[1]
-                        # print('Is merge?')
                         if all(i in set1 for i in set0):
-                            # print('Yes')
                             DCG[current_node_name][current_dev_idx].explored_edge_list = set_explored_edge_list[1]
-                            # DCG[current_node_name][current_dev_idx].explored_path = str(DCG[dcg_node_list[incoming_node_idx]][incoming_dev_idx].explored_path)+'->'+str(current_node_name)+':'+str(current_dev_idx)
                             incoming_node_idx = backward_node_list[1][0]
                             distance_merge_to_current = current_node_idx - incoming_node_idx
                             append_list = []
@@ -348,8 +346,7 @@ while queue:
                 if  all(is_end):
                     print('All explored edge list is Ture:', current_node_name)
                     print(DCG[current_node_name][current_dev_idx].explored_edge_list)
-                    # print(DCG[current_node_name][current_dev_idx].explored_edge_list)
-                    # print(DCG[current_node_name][current_dev_idx].explored_path)
+                    print(DCG[current_node_name][current_dev_idx].explored_path)
                     break
         
         # print(DCG[current_node_name][current_dev_idx].explored_edge_list)
